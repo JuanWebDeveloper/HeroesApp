@@ -20,6 +20,11 @@ export const Navbar = () => {
 						Marvel
 					</Link>
 				</li>
+				<li>
+					<Link to='/dc' className='navigation-item'>
+						Dc
+					</Link>
+				</li>
 			</ul>
 		</div>
 	);
