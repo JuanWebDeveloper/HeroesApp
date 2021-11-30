@@ -1,10 +1,13 @@
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, useNavigate, Navigate } from 'react-router-dom';
 
 import { getHeroById } from './helpers/getHeroById';
 
 export const HeroInformation = () => {
 	const { id } = useParams();
+	const navigate = useNavigate();
+
 	const hero = getHeroById(id);
+	const handleReturn = () => navigate(-1);
 
 	if (!hero) {
 		return <Navigate to='/' />;
@@ -37,7 +40,7 @@ export const HeroInformation = () => {
 					<h5>Characters</h5>
 					<p>{hero.characters}</p>
 
-					<button>Return</button>
+					<button onClick={handleReturn}>Return</button>
 				</div>
 			</div>
 		</div>
