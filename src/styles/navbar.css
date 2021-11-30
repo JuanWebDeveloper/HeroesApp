@@ -1,0 +1,33 @@
+.navbar {
+	align-items: center;
+	background: var(--bg-color-secondary);
+	display: flex;
+	height: 60px;
+	justify-content: space-between;
+	position: fixed;
+	padding: 0 30px;
+	width: 100vw;
+	z-index: 100;
+}
+
+.logo span {
+	cursor: pointer;
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.navigation {
+	display: flex;
+}
+
+.navigation li {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding-left: 40px;
+}
+
+.navigation-item {
+	color: var(--text-color);
+}
