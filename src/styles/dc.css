@@ -1,0 +1,28 @@
+.dc {
+	position: absolute;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	width: 100vw;
+}
+
+.dc-content {
+	background: var(--bg-color-secondary);
+	border-radius: 5px;
+	box-shadow: var(--box-shadow);
+	left: 50%;
+	max-height: 80vh;
+	overflow: hidden;
+	overflow-y: scroll;
+	position: relative;
+	padding: 25px;
+	top: calc(50% + 30px);
+	transform: translate(-50%, -50%);
+	width: 90vw;
+}
+
+.dc-content h2 {
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
