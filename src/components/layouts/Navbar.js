@@ -15,6 +15,11 @@ export const Navbar = () => {
 						Inicio
 					</Link>
 				</li>
+				<li>
+					<Link to='/marvel' className='navigation-item'>
+						Marvel
+					</Link>
+				</li>
 			</ul>
 		</div>
 	);
