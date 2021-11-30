@@ -12,7 +12,9 @@ export const HeroCard = () => {
 				<h3>Batman</h3>
 				<p>alter ego</p>
 				<p>first_appearance</p>
-				<Link to='/'>Mas informacion</Link>
+				<Link to='/' className='more-information'>
+					More information
+				</Link>
 			</div>
 		</div>
 	);
