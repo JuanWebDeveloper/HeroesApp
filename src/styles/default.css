@@ -13,7 +13,7 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--bg-color: #3d0404;
+		--bg-color: #0f0f0f;
 		--bg-color-secondary: #4b1111;
 		--box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 		--text-color: #dedede;
