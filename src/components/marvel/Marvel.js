@@ -1,7 +1,15 @@
+import { HeroesList } from '../heroes/HeroesList';
+
+import '../../styles/marvel.css';
+
 export const Marvel = () => {
 	return (
-		<div>
-			<h2>Marvel</h2>
+		<div className='marvel'>
+			<div className='marvel-content'>
+				<h2>Marvel Comics</h2>
+
+				<HeroesList />
+			</div>
 		</div>
 	);
 };
