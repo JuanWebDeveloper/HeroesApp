@@ -10,6 +10,7 @@
 	background: #dedede1a;
 	box-shadow: var(--box-shadow);
 	border-radius: 5px;
+	margin-bottom: 25px;
 	position: relative;
 	padding: 15px;
 	width: 30%;

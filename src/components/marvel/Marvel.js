@@ -8,7 +8,7 @@ export const Marvel = () => {
 			<div className='marvel-content'>
 				<h2>Marvel Comics</h2>
 
-				<HeroesList />
+				<HeroesList publisher='Marvel Comics' />
 			</div>
 		</div>
 	);
