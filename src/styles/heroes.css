@@ -54,3 +54,83 @@
 	font-weight: 500;
 	letter-spacing: 1px;
 }
+
+/* Hero Information Styles */
+.hero-information {
+	position: absolute;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	width: 100vw;
+}
+
+.hero-information_content {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	height: calc(100% - 100px);
+	position: relative;
+	top: 80px;
+	width: 100%;
+}
+
+.hero-image {
+	height: 100%;
+	position: relative;
+	width: 30%;
+}
+
+.hero-image img {
+	height: 100%;
+	width: 100%;
+}
+
+.hero-description {
+	background: var(--bg-color-secondary);
+	position: relative;
+	padding: 15px 0;
+	text-align: center;
+	width: 70%;
+}
+
+.hero-description h2 {
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.hero-description ul {
+	padding: 0;
+}
+
+.hero-description ul li {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.hero-description h5 {
+	font-size: 25px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+.hero-description p {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.hero-description button {
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	color: var(--text-color);
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 5px 30px;
+}
