@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance, characters }) => {
+export const HeroCard = ({ id, superhero, alter_ego, first_appearance }) => {
 	const imagePath = `/assets/img/heroes/${id}.jpg`;
 
 	return (

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import '../../styles/navbar.css';
 
@@ -11,19 +11,19 @@ export const Navbar = () => {
 
 			<ul className='navigation'>
 				<li>
-					<Link to='/' className='navigation-item'>
+					<NavLink to='/' className={({ isActive }) => `navigation-item ${isActive ? 'active' : ''}`}>
 						Inicio
-					</Link>
+					</NavLink>
 				</li>
 				<li>
-					<Link to='/marvel' className='navigation-item'>
+					<NavLink to='/marvel' className={({ isActive }) => `navigation-item ${isActive ? 'active' : ''}`}>
 						Marvel
-					</Link>
+					</NavLink>
 				</li>
 				<li>
-					<Link to='/dc' className='navigation-item'>
+					<NavLink to='/dc' className={({ isActive }) => `navigation-item ${isActive ? 'active' : ''}`}>
 						Dc
-					</Link>
+					</NavLink>
 				</li>
 			</ul>
 		</div>
