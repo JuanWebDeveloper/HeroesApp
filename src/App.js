@@ -1,9 +1,5 @@
-import { HomePage } from './components/home/HomePage';
+import { AppRoutes } from './routes/AppRoutes';
 
 export const App = () => {
-	return (
-		<div>
-			<HomePage />
-		</div>
-	);
+	return <AppRoutes />;
 };
