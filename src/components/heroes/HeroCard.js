@@ -12,7 +12,7 @@ export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance
 				<h3>{superhero}</h3>
 				<p>{alter_ego}</p>
 				<p>{first_appearance}</p>
-				<Link to='/' className='more-information'>
+				<Link to={`/hero/${id}`} className='more-information'>
 					More information
 				</Link>
 			</div>
