@@ -4,14 +4,18 @@
 /* Web Color Variables */
 @media (prefers-color-scheme: light) {
 	:root {
-		--bg-color: #dedede;
-		--text-color: #eb0000;
+		--bg-color: #dedede20;
+		--bg-color-secondary: #3d0404;
+		--box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+		--text-color: #dedede;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--bg-color: #3d0404;
+		--bg-color-secondary: #4b1111;
+		--box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 		--text-color: #dedede;
 	}
 }
@@ -19,8 +23,10 @@
 /* Default Styles */
 * {
 	box-sizing: border-box;
+	border: none;
 	font-family: 'Poppins', sans-serif;
 	list-style: none;
+	outline: none;
 	text-decoration: none;
 }
 
