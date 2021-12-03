@@ -6,37 +6,44 @@
 }
 
 .home-page_content {
-	background: var(--bg-color-secondary);
-	box-shadow: var(--box-shadow);
-	position: relative;
-	top: 30px;
+	position: absolute;
 	width: 100vw;
-}
-
-.home-page_content h1 {
-	font-size: 40px;
-	font-weight: 600;
-	letter-spacing: 2px;
-	padding-top: 30px;
-	text-align: center;
+	top: 0;
 }
 
 /* Search Bar Styles */
 .search-hero {
+	background: var(--bg-color-secondary);
+	box-shadow: var(--box-shadow);
+	position: relative;
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.search-hero h1 {
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-top: 0;
+	padding-top: 70px;
+	text-align: center;
+}
+
+.search-hero_content {
 	background: rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
 	margin: 0 auto;
 	position: relative;
 	padding: 15px;
-	padding-bottom: 30px;
+	padding-bottom: 25px;
 	text-align: center;
 	width: 50%;
 }
 
-.search-hero h2 {
+.search-hero_content h3 {
 	font-weight: 500;
 	margin: 0;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .search {
@@ -60,8 +67,8 @@
 .search-results {
 	margin: 0 auto;
 	position: relative;
-	top: 90px;
-	width: 90vw;
+	top: 50px;
+	width: 90%;
 }
 
 .search-results h2 {
@@ -70,4 +77,18 @@
 	font-weight: 600;
 	letter-spacing: 2px;
 	margin-top: 0;
+	padding-left: 35px;
+}
+
+.search-results_content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	position: relative;
+	padding-left: 35px;
+	width: 100%;
+}
+
+.search-results_content .hero-card {
+	margin-right: 35px;
 }
