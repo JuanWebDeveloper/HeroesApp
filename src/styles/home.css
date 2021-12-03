@@ -1,6 +1,5 @@
 .home-page {
-	position: absolute;
-	height: 100vh;
+	position: relative;
 	top: 0;
 	left: 0;
 	width: 100vw;
@@ -10,11 +9,10 @@
 	background: var(--bg-color-secondary);
 	border-radius: 5px;
 	box-shadow: var(--box-shadow);
-	left: 50%;
+	margin: 0 auto;
 	position: relative;
 	padding: 25px;
-	top: calc(50% + 30px);
-	transform: translate(-50%, -50%);
+	top: 80px;
 	width: 50vw;
 }
 
@@ -25,6 +23,7 @@
 	text-align: center;
 }
 
+/* Search Bar Styles */
 .search-hero {
 	background: rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
@@ -55,4 +54,20 @@
 
 .search::placeholder {
 	color: var(--text-color);
+}
+
+/* Search Result Styles */
+.search-results {
+	margin: 0 auto;
+	position: relative;
+	top: 120px;
+	width: 90vw;
+}
+
+.search-results h2 {
+	color: var(--bg-color-secondary);
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-top: 0;
 }

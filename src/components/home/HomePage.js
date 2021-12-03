@@ -1,4 +1,5 @@
 import { Search } from './Search';
+import { SearchResults } from './SearchResults';
 
 import '../../styles/home.css';
 
@@ -10,6 +11,7 @@ export const HomePage = () => {
 
 				<Search />
 			</div>
+			<SearchResults />
 		</div>
 	);
 };
