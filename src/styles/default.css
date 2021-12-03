@@ -39,3 +39,18 @@ body {
 	overflow-x: hidden;
 	padding: 0;
 }
+
+/* Scroll Styles */
+*::-webkit-scrollbar {
+	width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: var(--bg-color-third);
+}
+
+*::selection {
+	color: var(--text-color);
+	background: var(--bg-color-secondary);
+	text-shadow: none;
+}
