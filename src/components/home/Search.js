@@ -33,18 +33,27 @@ export const Search = () => {
 					<h3>Look for a hero</h3>
 
 					<form>
-						<input type='text' name='search' placeholder='Search...' autoComplete='off' className='search' value={searchValue} onChange={handleChange} />
+						<input type='text' name='search' placeholder='Hero name...' autoComplete='off' className='search' value={searchValue} onChange={handleChange} />
 					</form>
 				</div>
 			</div>
 			<div className='search-results'>
-				<h2>Search Results</h2>
-
-				<div className='search-results_content'>
-					{heroFilter.map((hero) => (
-						<HeroCard key={hero.id} {...hero} />
-					))}
-				</div>
+				{hero === '' ? (
+					''
+				) : heroFilter.length === 0 ? (
+					<h3 className='results-found'>
+						No search results found: <span>{hero}</span>
+					</h3>
+				) : (
+					<>
+						<h2>Search Results</h2>
+						<div className='search-results_content'>
+							{heroFilter.map((hero) => (
+								<HeroCard key={hero.id} {...hero} />
+							))}
+						</div>
+					</>
+				)}
 			</div>
 		</Fragment>
 	);

@@ -81,3 +81,14 @@
 .search-results_content .hero-card {
 	margin-right: 35px;
 }
+
+.results-found {
+	color: rgb(167, 0, 0);
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.results-found span {
+	color: var(--text-color);
+}
