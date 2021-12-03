@@ -4,9 +4,12 @@
 	display: flex;
 	height: 60px;
 	justify-content: space-between;
+	left: 0;
 	position: fixed;
 	padding: 0 30px;
+	top: 0;
 	width: 100vw;
+	background: blue;
 	z-index: 100;
 }
 

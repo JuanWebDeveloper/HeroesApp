@@ -7,19 +7,17 @@
 
 .home-page_content {
 	background: var(--bg-color-secondary);
-	border-radius: 5px;
 	box-shadow: var(--box-shadow);
-	margin: 0 auto;
 	position: relative;
-	padding: 25px;
-	top: 80px;
-	width: 50vw;
+	top: 30px;
+	width: 100vw;
 }
 
 .home-page_content h1 {
 	font-size: 40px;
 	font-weight: 600;
 	letter-spacing: 2px;
+	padding-top: 30px;
 	text-align: center;
 }
 
@@ -27,10 +25,12 @@
 .search-hero {
 	background: rgba(0, 0, 0, 0.5);
 	border-radius: 5px;
+	margin: 0 auto;
 	position: relative;
 	padding: 15px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	text-align: center;
+	width: 50%;
 }
 
 .search-hero h2 {
@@ -60,7 +60,7 @@
 .search-results {
 	margin: 0 auto;
 	position: relative;
-	top: 120px;
+	top: 90px;
 	width: 90vw;
 }
 
