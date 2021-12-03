@@ -8,8 +8,6 @@
 
 .marvel-content {
 	background: var(--bg-color-secondary);
-	border-radius: 5px;
-	box-shadow: var(--box-shadow);
 	left: 50%;
 	max-height: 80vh;
 	overflow: hidden;

@@ -4,19 +4,21 @@
 /* Web Color Variables */
 @media (prefers-color-scheme: light) {
 	:root {
-		--bg-color: #dedede20;
-		--bg-color-secondary: #3d0404;
-		--box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
-		--text-color: #dedede;
+		--bg-color: #dedede;
+		--bg-color-secondary: #aaa4c6;
+		--bg-color-third: #4e4c6a;
+		--text-color: #00001a;
+		--text-color-secondary: #8087a9;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--bg-color: #0f0f0f;
-		--bg-color-secondary: #4b1111;
-		--box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
-		--text-color: #dedede;
+		--bg-color: #00001a;
+		--bg-color-secondary: #13142a;
+		--bg-color-third: #1a1a33;
+		--text-color: #aaa6ca;
+		--text-color-secondary: #4e46ca;
 	}
 }
 
@@ -34,5 +36,6 @@ body {
 	background-color: var(--bg-color);
 	color: var(--text-color);
 	margin: 0;
+	overflow-x: hidden;
 	padding: 0;
 }
