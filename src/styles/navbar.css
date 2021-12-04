@@ -41,3 +41,27 @@
 	letter-spacing: 2px;
 	transition: all 0.5s ease;
 }
+
+@media screen and (max-width: 600px) {
+	.navbar {
+		box-shadow: none;
+		justify-content: center;
+		padding: 0;
+	}
+
+	.navigation {
+		background: var(--bg-color-third);
+		position: absolute;
+		top: 45px;
+		width: 100%;
+	}
+
+	.navigation li {
+		padding-left: 0;
+		padding: 0 15px;
+	}
+
+	.active {
+		letter-spacing: 1px;
+	}
+}

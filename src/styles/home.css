@@ -8,7 +8,7 @@
 .home-page_content {
 	position: absolute;
 	width: 100vw;
-	top: 80px;
+	top: 100px;
 }
 
 /* Search Bar Styles */
@@ -98,9 +98,6 @@
 		margin-right: 0;
 		margin: 10px 15px;
 	}
-}
-
-@media screen and (max-width: 980px) {
 }
 
 @media screen and (max-width: 600px) {

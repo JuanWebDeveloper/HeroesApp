@@ -14,7 +14,7 @@
 	overflow-y: scroll;
 	position: relative;
 	padding: 25px;
-	top: calc(50% + 30px);
+	top: calc(50% + 50px);
 	transform: translate(-50%, -50%);
 	width: 90vw;
 }

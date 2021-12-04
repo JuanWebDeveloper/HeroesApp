@@ -171,4 +171,8 @@
 	.hero-description {
 		width: 100%;
 	}
+
+	.hero-information_content {
+		top: 100px;
+	}
 }
