@@ -135,3 +135,40 @@
 	letter-spacing: 1px;
 	padding: 5px 30px;
 }
+
+@media screen and (max-width: 1199px) {
+	.hero-card {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.hero-img {
+		height: 250px;
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 600px) and (min-height: 600px) {
+	.hero-image {
+		width: 50%;
+	}
+
+	.hero-description {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.hero-card {
+		width: 100%;
+	}
+
+	.hero-image {
+		width: 100%;
+	}
+
+	.hero-description {
+		width: 100%;
+	}
+}

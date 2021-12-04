@@ -92,3 +92,31 @@
 .results-found span {
 	color: var(--text-color);
 }
+
+@media screen and (max-width: 1199px) {
+	.search-results_content .hero-card {
+		margin-right: 0;
+		margin: 10px 15px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 600px) {
+	.search-hero_content {
+		width: 100%;
+	}
+
+	.search-results h2 {
+		padding-left: 0;
+	}
+
+	.search-results_content {
+		padding-left: 0;
+	}
+
+	.search-results_content .hero-card {
+		margin: 10px 0;
+	}
+}
